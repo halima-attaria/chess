@@ -1,0 +1,120 @@
+<!--
+Source - https://stackoverflow.com/a/26432909
+Posted by Pedro Amaral Couto, modified by community. See post 'Timeline' for change history
+Retrieved 2026-02-27, License - CC BY-SA 4.0
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <style>
+            .chess-board { border-spacing: 2; border-collapse: collapse; }
+            .chess-board th { padding: .5em; }
+            .chess-board th + th { border-bottom: 1px solid #000; }
+            .chess-board th:first-child,
+            .chess-board td:last-child { border-right: 1px solid #000; }
+            .chess-board tr:last-child td { border-bottom: 1px solid; }
+            .chess-board th:empty { border: none; }
+            .chess-board td { width: 2.5em; height: 2.5em; text-align: center; font-size: 35px; line-height: 0;}
+            .chess-board .light { background: #eee; }
+            .chess-board .dark { background: #5d5a5a; }
+        </style>
+    </head>
+    <body>
+        <table class="chess-board">
+            <tbody>
+         
+                <tr>
+                    
+                    <td class="light">♜</td>
+                    <td class="dark">♞</td>
+                    <td class="light">♝</td>
+                    <td class="dark">♛</td>
+                    <td class="light">♚</td>
+                    <td class="dark">♝</td>
+                    <td class="light">♞</td>
+                    <td class="dark">♜</td>
+                </tr>
+                <tr>
+                    
+                    <td class="dark">♟</td>
+                    <td class="light">♟</td>
+                    <td class="dark">♟</td>
+                    <td class="light">♟</td>
+                    <td class="dark">♟</td>
+                    <td class="light">♟</td>
+                    <td class="dark">♟</td>
+                    <td class="light">♟</td>
+                </tr>
+                <tr>
+                    
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                </tr>
+                <tr>
+                  
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                </tr>
+                <tr>
+                    
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                </tr>
+                <tr>
+               
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                    <td class="dark"></td>
+                    <td class="light"></td>
+                </tr>
+                <tr>
+                   
+                    <td class="light">♙</td>
+                    <td class="dark">♙</td>
+                    <td class="light">♙</td>
+                    <td class="dark">♙</td>
+                    <td class="light">♙</td>
+                    <td class="dark">♙</td>
+                    <td class="light">♙</td>
+                    <td class="dark">♙</td>
+                </tr>
+                <tr>
+                   
+                    <td class="dark">♖</td>
+                    <td class="light">♘</td>
+                    <td class="dark">♗</td>
+                    <td class="light">♕</td>
+                    <td class="dark">♔</td>
+                    <td class="light">♗</td>
+                    <td class="dark">♘</td>
+                    <td class="light">♖</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
